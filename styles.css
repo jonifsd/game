@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#gameArea {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#paddle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    transform: translateX(-50%);
+}
+
+.fallingObject {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#scoreBoard {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
